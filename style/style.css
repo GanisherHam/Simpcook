@@ -321,3 +321,101 @@
   color: var(--black);
   font-family: var(--PR);
 }
+
+.section__about {
+  margin-top: 165px;
+}
+
+.about__chef {
+  display: flex;
+}
+
+.about__chef-img img {
+  max-width: 471px;
+  border-radius: 20px;
+}
+
+.about__chef-info {
+  margin-left: 90px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about__chef-text {
+  margin-bottom: 13px;
+}
+
+.chef-info__link {
+  display: block;
+  font-size: 22px;
+  line-height: 33px;
+  color: #0645ad;
+  font-family: var(--PR);
+}
+
+.chef-info__title {
+  margin-bottom: 26px;
+  font-size: 38px;
+  line-height: 57px;
+  color: var(--black);
+  letter-spacing: 0.035em;
+  font-family: var(--PSB);
+}
+
+.chef-info__description {
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.02em;
+  color: #aaaaaa;
+  font-family: var(--PR);
+}
+
+.about-chef__experience {
+  display: flex;
+}
+
+.experience-span::before {
+  content: url(../images/svg/experience.png);
+  color: var(--green);
+  font-size: 78px;
+  border-radius: 20px;
+  margin-right: 55px;
+}
+
+.chef__experience-title {
+  font-size: 26px;
+  line-height: 39px;
+  letter-spacing: 0.035em;
+  font-family: var(--PSB);
+  color: var(--black);
+  margin-bottom: 9px;
+}
+
+.chef__experience-description {
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.02em;
+  color: #aaaaaa;
+  font-family: var(--PR);
+}
+
+.certificate-span::before {
+  content: url(../images/svg/certificate.png);
+  color: var(--green);
+  font-size: 78px;
+  border-radius: 20px;
+  margin-right: 55px;
+}
+
+.certificate {
+  margin-top: 55px;
+  margin-bottom: 43px;
+}
+
+.about__chef-more {
+  background: #ececec;
+  border-radius: 30px;
+  font-size: 38px;
+  padding: 22px;
+  align-self: center;
+}
