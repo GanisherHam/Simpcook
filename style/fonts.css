@@ -1,84 +1,84 @@
 @font-face {
-    font-family: 'Popipns-Regular';
-    src: url(../fonts/Poppins-Regular.ttf);
+  font-family: "Popipns-Regular";
+  src: url(../fonts/Poppins-Regular.ttf);
 }
 
 @font-face {
-    font-family: 'Popipns-Medium';
-    src: url(../fonts/Poppins-Medium.ttf);
+  font-family: "Popipns-Medium";
+  src: url(../fonts/Poppins-Medium.ttf);
 }
 
 @font-face {
-    font-family: 'Popipns-Semibold';
-    src: url(../fonts/Poppins-SemiBold.ttf);
+  font-family: "Popins-Semibold";
+  src: url(../fonts/Poppins-SemiBold.ttf);
 }
 
 @font-face {
-    font-family: 'Nunito-Bold';
-    src: url(../fonts/Nunito-Bold.ttf);
+  font-family: "Nunito-Bold";
+  src: url(../fonts/Nunito-Bold.ttf);
 }
 
 @font-face {
-    font-family: 'Nunito-Regular';
-    src: url(../fonts/Nunito-Regular.ttf);
+  font-family: "Nunito-Regular";
+  src: url(../fonts/Nunito-Regular.ttf);
 }
 
 @font-face {
-    font-family: 'Ubuntu-Regular';
-    src: url(../fonts/Ubuntu-Regular.ttf);
+  font-family: "Ubuntu-Regular";
+  src: url(../fonts/Ubuntu-Regular.ttf);
 }
 
 @font-face {
-    font-family: 'Ubuntu-Medium';
-    src: url(../fonts/Ubuntu-Medium.ttf);
+  font-family: "Ubuntu-Medium";
+  src: url(../fonts/Ubuntu-Medium.ttf);
 }
 
 @font-face {
-    font-family: 'fontawesome-brands';
-    src: url('../fonts/fontAwsome/fa-brands-400.woff2');
-    font-weight: 400;
+  font-family: "fontawesome-brands";
+  src: url("../fonts/fontAwsome/fa-brands-400.woff2");
+  font-weight: 400;
 }
 
 @font-face {
-    font-family: 'fontawesome-duotone';
-    src: url('../fonts/fontAwsome/fa-duotone-900.woff2');
-    font-weight: 900;
+  font-family: "fontawesome-duotone";
+  src: url("../fonts/fontAwsome/fa-duotone-900.woff2");
+  font-weight: 900;
 }
 
 @font-face {
-    font-family: 'fontawesome-light';
-    src: url('../fonts/fontAwsome/fa-light-300.woff2');
-    font-weight: 300;
+  font-family: "fontawesome-light";
+  src: url("../fonts/fontAwsome/fa-light-300.woff2");
+  font-weight: 300;
 }
 
 @font-face {
-    font-family: 'fontAwesome';
-    src: url('../fonts/fontAwsome/fa-regular-400.woff2');
-    font-weight: 400;
+  font-family: "fontAwesome";
+  src: url("../fonts/fontAwsome/fa-regular-400.woff2");
+  font-weight: 400;
 }
 
 @font-face {
-    font-family: 'fontawesome-solid';
-    src: url('../fonts/fontAwsome/fa-solid-900.woff2');
-    font-weight: 900;
+  font-family: "fontawesome-solid";
+  src: url("../fonts/fontAwsome/fa-solid-900.woff2");
+  font-weight: 900;
 }
 
 .fab {
-    font-family: 'fontawesome-brands';
-    font-style: normal;
-    font-weight: 400;
+  font-family: "fontawesome-brands";
+  font-style: normal;
+  font-weight: 400;
 }
 
 .fad {
-    font-family: 'fontawesome-duotone';
-    font-style: normal;
-    font-weight: 900;
+  font-family: "fontawesome-duotone";
+  font-style: normal;
+  font-weight: 900;
 }
 
 .fa,
 .far,
 .fal,
 .fas {
-    font-family: 'fontAwesome';
-    font-style: normal;
+  font-family: "fontAwesome";
+  font-style: normal;
 }

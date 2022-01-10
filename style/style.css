@@ -170,9 +170,13 @@
 }
 
 .section__search {
-  margin: 0 auto;
-  max-width: 1000px;
-  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section__search-item {
+  width: 1000px;
   border: 1.5px solid #222222;
   border-radius: 25px;
   padding: 20px 19px 20px 77px;
@@ -328,9 +332,6 @@
 
 .section__about {
   margin-top: 165px;
-}
-
-.about__chef {
   display: flex;
 }
 
@@ -370,7 +371,7 @@
   font-size: 22px;
   line-height: 33px;
   letter-spacing: 0.02em;
-  color: #aaaaaa;
+  color: var(--gray);
   font-family: var(--PR);
 }
 
@@ -399,7 +400,7 @@
   font-size: 22px;
   line-height: 33px;
   letter-spacing: 0.02em;
-  color: #aaaaaa;
+  color: var(--gray);
   font-family: var(--PR);
 }
 
@@ -470,7 +471,7 @@
   font-size: 22px;
   line-height: 33px;
   letter-spacing: 0.02em;
-  color: #aaaaaa;
+  color: var(--gray);
   font-family: var(--PR);
 }
 
@@ -501,7 +502,7 @@
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 0.02em;
-  color: #aaaaaa;
+  color: var(--gray);
 }
 
 .users-rate__item {
@@ -520,3 +521,96 @@
 /* SECTION USERS END */
 
 /* SECTION GROUP START */
+
+.section__group {
+  margin-top: 165px;
+  display: flex;
+}
+
+.section__group-img {
+  margin-right: 91px;
+  max-width: 322px;
+}
+
+.setion__group-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.group-info__title {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 130%;
+  letter-spacing: 0.035em;
+  color: var(--black);
+  font-family: var(--PSB);
+  margin-bottom: 29px;
+}
+
+.group-info__subtitle {
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.02em;
+  color: var(--gray);
+  font-family: var(--PR);
+}
+
+.group-info__join {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.group-info__description {
+  font-family: var(--PSB);
+  font-size: 38px;
+  line-height: 57px;
+  color: #222;
+  letter-spacing: 0.02em;
+}
+
+.group-info__span {
+  color: var(--black);
+  font-family: var(--PR);
+}
+
+.group-info__subscribe {
+  width: 706px;
+  padding: 12px 13px 12px 49px;
+  border: 1.5px solid #000000;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.group-info__text {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  color: var(--gray);
+  font-family: var(--PR);
+}
+
+.group-info__right::before {
+  content: url(../images/svg/Arrow-Left.png);
+  margin-left: 29px;
+  position: absolute;
+  bottom: 26px;
+}
+
+.group-info__btn {
+  background: #ff965b;
+  border-radius: 20px;
+  width: 275px;
+  height: 75px;
+  outline: none;
+  border: none;
+  font-size: 24px;
+  line-height: 36px;
+  font-family: var(--PM);
+  letter-spacing: 0.02em;
+  color: #fff;
+}
