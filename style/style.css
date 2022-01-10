@@ -306,14 +306,14 @@
   align-items: center;
 }
 
-.food-star::before {
+.star::before {
   content: url(../images/svg/star.png);
   margin-right: 8px;
   width: 22px;
   height: 20px;
 }
 
-.food__mark-rate {
+.rate {
   margin-left: 22px;
   font-size: 22px;
   line-height: 33px;
@@ -321,6 +321,10 @@
   color: var(--black);
   font-family: var(--PR);
 }
+
+/* SECTION FOOD END */
+
+/* SECTION ABOUT START */
 
 .section__about {
   margin-top: 165px;
@@ -418,4 +422,101 @@
   font-size: 38px;
   padding: 22px;
   align-self: center;
+  color: var(--black);
 }
+
+/* SECTION ABOUT END */
+
+/* SECTION USERS START */
+
+.section__users {
+  margin-top: 165px;
+  display: flex;
+}
+
+.section__users-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section-users__img {
+  margin-left: 100px;
+}
+
+.section-users__img img {
+  border-radius: 20px;
+  max-width: 461px;
+}
+
+.users-info__link {
+  margin-bottom: 7px;
+  font-size: 22px;
+  line-height: 33px;
+  color: #0645ad;
+  font-family: var(--PR);
+}
+
+.users-info__title {
+  font-size: 38px;
+  line-height: 57px;
+  font-family: var(--PSB);
+  letter-spacing: 0.035em;
+  color: var(--black);
+  margin-bottom: 43px;
+}
+
+.users-info__description {
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.02em;
+  color: #aaaaaa;
+  font-family: var(--PR);
+}
+
+.users-rate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.users-rate__about {
+  display: flex;
+  align-items: center;
+}
+
+.users-rate__ava {
+  border-radius: 50%;
+  margin-right: 22px;
+}
+
+.users-rate__title {
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--black);
+  letter-spacing: 0.02em;
+  font-family: var(--PM);
+}
+
+.users-rate__subtitle {
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: #aaaaaa;
+}
+
+.users-rate__item {
+  display: flex;
+  align-items: center;
+}
+
+.users-rate__header {
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  color: var(--black);
+  font-family: var(--PR);
+}
+
+/* SECTION USERS END */
+
+/* SECTION GROUP START */
