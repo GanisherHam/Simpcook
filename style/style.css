@@ -1,4 +1,5 @@
 @import "fonts.css";
+@import "media.css";
 
 * {
   margin: 0;
@@ -22,7 +23,7 @@
 }
 
 .container {
-  max-width: 1120px;
+  max-width: 1152px;
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
@@ -59,11 +60,7 @@
 }
 
 .navbar__list li {
-  margin-right: 55px;
-}
-
-.navbar__list li:nth-of-type(4) {
-  margin-right: 0;
+  margin: 0 20px;
 }
 
 .navbar__list li a {
@@ -83,8 +80,7 @@
 }
 
 .curtain__link {
-  width: 165px;
-  height: 45px;
+  padding: 3px 23px 4px 24px;
   background: var(--green);
   border-radius: 30px;
   display: flex;
@@ -108,7 +104,6 @@
 }
 
 .header__wrapper-title {
-  margin-top: 30px;
   font-size: 54px;
   width: 550px;
 }
@@ -168,9 +163,10 @@
 
 .header__main-img {
   position: absolute;
-  max-width: 768px;
+  max-width: 700px;
   width: 100%;
-  right: -2%;
+  top: 20px;
+  right: 0%;
 }
 
 /* HEADER END */
@@ -347,6 +343,7 @@
 .section__about {
   margin-top: 165px;
   display: flex;
+  justify-content: space-between;
 }
 
 .about__chef-img img {
@@ -355,7 +352,7 @@
 }
 
 .about__chef-info {
-  margin-left: 90px;
+  max-width: 561px;
   display: flex;
   flex-direction: column;
 }
@@ -447,16 +444,13 @@
 .section__users {
   margin-top: 165px;
   display: flex;
+  justify-content: space-between;
 }
 
 .section__users-info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.section-users__img {
-  margin-left: 100px;
 }
 
 .section-users__img img {
@@ -487,6 +481,7 @@
   letter-spacing: 0.02em;
   color: var(--gray);
   font-family: var(--PR);
+  max-width: 561px;
 }
 
 .users-rate {
@@ -539,10 +534,10 @@
 .section__group {
   margin-top: 165px;
   display: flex;
+  justify-content: space-between;
 }
 
 .section__group-img {
-  margin-right: 91px;
   max-width: 322px;
 }
 
@@ -568,6 +563,8 @@
   letter-spacing: 0.02em;
   color: var(--gray);
   font-family: var(--PR);
+  max-width: 600px;
+  width: 100%;
 }
 
 .group-info__join {

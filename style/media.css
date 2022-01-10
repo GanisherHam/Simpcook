@@ -1,0 +1,266 @@
+@media (max-width: 1090px) {
+  .food__header {
+    justify-content: space-evenly !important;
+  }
+
+  .food__mark,
+  .section__users,
+  .section__about,
+  .section__group {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+}
+
+@media (max-width: 1040px) {
+  .header__main-img {
+    max-width: 600px !important;
+    top: 50px !important;
+  }
+  .food__mark-link {
+    margin-bottom: 20px !important;
+  }
+  .food__mark-info {
+    margin-bottom: 10px;
+  }
+  .about__chef-img {
+    margin-bottom: 20px;
+  }
+  .about__chef-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-chef__experience {
+    align-items: center;
+  }
+  .chef-info__description {
+    text-align: center;
+  }
+  .users-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .users-rate {
+    margin-bottom: 20px;
+  }
+  .group-info__subtitle {
+    margin-bottom: 20px;
+  }
+  .group-info__join {
+    margin-bottom: 20px;
+  }
+  .section__group-img {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 930px) {
+  .header__main-img {
+    display: none;
+  }
+  .header__main {
+    justify-content: center;
+  }
+  .header__wrapper {
+    align-items: center;
+  }
+  .header__wrapper-title {
+    text-align: center;
+  }
+  .main,
+  .header__main,
+  .section-food,
+  .section__about,
+  .section__users,
+  .section__group,
+  .footer {
+    margin-top: 100px !important;
+  }
+}
+
+@media (max-width: 790px) {
+  .flex-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .section__search-item {
+    flex-wrap: wrap;
+    max-width: 1000px;
+    padding: 20px 19px 20px 20px !important;
+  }
+}
+
+@media (max-width: 730px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+  .group-info__subscribe {
+    max-width: 730px;
+    width: 100% !important;
+    padding: 13px !important;
+  }
+  .group-info__join {
+    justify-content: space-evenly !important;
+  }
+  .group-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .box__link-span {
+    margin-left: 5px !important;
+  }
+  .box__link-span:nth-of-type(1) {
+    margin-left: 15px !important;
+  }
+  .search-btn {
+    margin-top: 20px;
+  }
+  .footer-textBox {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 620px) {
+  .main,
+  .header__main,
+  .section-food,
+  .section__about,
+  .section__users,
+  .section__group,
+  .footer {
+    margin-top: 60px !important;
+  }
+  .food__header {
+    margin-bottom: 40px !important;
+  }
+  .food__header-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section__search-item {
+    justify-content: space-evenly !important;
+  }
+}
+
+@media (max-width: 590px) {
+  .setion__group-info {
+    align-items: center !important;
+  }
+  .group-info__right::before {
+    display: none;
+  }
+  .group-info__title {
+    text-align: center;
+  }
+  .users-rate,
+  .food__mark-info {
+    justify-content: space-evenly !important;
+  }
+  .header__wrapper-title {
+    max-width: 500px;
+    width: 100% !important;
+    font-size: 40px !important;
+  }
+  .navbar__list {
+    margin: 20px 0;
+  }
+  .food__header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .food__mark-img {
+    width: 100%;
+  }
+  .about__chef-img img {
+    width: 100%;
+  }
+  .food__mark-info {
+    flex-wrap: wrap;
+  }
+  .chef-info__title {
+    font-size: 30px !important;
+  }
+  .users-rate {
+    flex-wrap: wrap;
+  }
+  .section-users__img img {
+    width: 100%;
+  }
+  .group-info__title {
+    font-size: 30px !important;
+  }
+  .group-info__join {
+    flex-wrap: wrap;
+  }
+  .group-info__subscribe {
+    flex-wrap: wrap;
+    justify-content: center !important;
+    max-width: 400px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 495px) {
+  .footer-support {
+    margin-top: 20px;
+  }
+  .flex-container {
+    justify-content: space-evenly !important;
+  }
+  .footer-info,
+  .footer-aboutUs,
+  .footer-support {
+    text-align: center;
+  }
+}
+
+@media (max-width: 470px) {
+  .header {
+    margin-top: 20px !important;
+  }
+  .users-rate__mark {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .navbar__list li {
+    margin: 0 10px !important;
+  }
+  .chef-info__title {
+    text-align: center;
+  }
+  .section__group-img img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 365px) {
+  .header__wrapper-title,
+  .food-item__title,
+  .users-info__title {
+    font-size: 30px !important;
+  }
+  .food__mark-title,
+  .chef-info__title,
+  .group-info__title,
+  .group-info__description {
+    font-size: 26px !important;
+  }
+  .chef-info__description,
+  .chef__experience-description,
+  .users-info__description,
+  .group-info__subtitle {
+    font-size: 18px !important;
+  }
+  .chef__experience-title {
+    font-size: 20px !important;
+  }
+  .footer-aboutUs {
+    margin-top: 20px !important;
+  }
+}
