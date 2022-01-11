@@ -1,36 +1,43 @@
 @font-face {
   font-family: "Popipns-Regular";
   src: url(../fonts/Poppins-Regular.ttf);
+  font-weight: 400;
 }
 
 @font-face {
   font-family: "Popipns-Medium";
   src: url(../fonts/Poppins-Medium.ttf);
+  font-weight: 500;
 }
 
 @font-face {
   font-family: "Popipns-Semibold";
   src: url(../fonts/Poppins-SemiBold.ttf);
+  font-weight: 600;
 }
 
 @font-face {
   font-family: "Nunito-Bold";
   src: url(../fonts/Nunito-Bold.ttf);
+  font-weight: 700;
 }
 
 @font-face {
   font-family: "Nunito-Regular";
   src: url(../fonts/Nunito-Regular.ttf);
+  font-weight: 400;
 }
 
 @font-face {
   font-family: "Ubuntu-Regular";
   src: url(../fonts/Ubuntu-Regular.ttf);
+  font-weight: 400;
 }
 
 @font-face {
   font-family: "Ubuntu-Medium";
   src: url(../fonts/Ubuntu-Medium.ttf);
+  font-weight: 500;
 }
 
 @font-face {
